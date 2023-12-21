@@ -25,7 +25,8 @@ def sqroot():
     num2=int(float(num1))
     for i in range(100):
         num1=0.5*(num1+num2/num1)
-    print("Square root of the number:",num1)
+    print("Square root of the number:",
+     num1)
 sqroot()
 
 ```
